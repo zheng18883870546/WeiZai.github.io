@@ -62,6 +62,69 @@
       <div id="main" class="wrapper">
         <div id="primary" class="site-content"><div id="content" role="main">
   
+    <article id="post-MySQL配置" class="post-MySQL配置 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/2019/02/21/MySQL配置/">MySQL配置</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/02/21/MySQL配置/" data-id="cjsek5ul80000ewqw9qzmas4f" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <ol>
+<li><p>下载MySQL源安装包: <code>wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm</code>  </p>
+</li>
+<li><p>安装MySQL源: <code>yum localinstall mysql57-community-release-el7-8.noarch.rpm</code></p>
+</li>
+<li><p>安装MySQL:  <code>mysql:yum install mysql-community-server</code>  </p>
+</li>
+<li><p>设置开启启动MySQL服务: <code>systemctl enable mysqld</code>  </p>
+</li>
+<li>启动/重启MySQL服务：systemctl restart mysqld  </li>
+<li>查看MySQL初始密码：grep ‘A temporary password’ /var/log/mysqld.log  </li>
+<li>更改MySQL密码：mysqladmin -u root -p’旧密码’ password ‘新密码’<br> 这里更改密码出了问题，更改失败，这是因为密码太过简单的原因。有两个接解决方法：</li>
+</ol>
+<p>　　　　方法一：把密码设置复杂点（这是最直接的方法）</p>
+<p>　　　　方法二：关闭mysql密码强度验证(validate_password)</p>
+<p>　　　　　　　　编辑配置文件：<code>vim /etc/my.cnf</code>， 增加这么一行    validate_password=off</p>
+<p>　　　　　　　　编辑后重启mysql服务：<code>systemctl restart mysqld</code>  
+　　　　　　　　  </p>
+<ol start="8">
+<li>设置mysql能够远程访问:<br> a. 登录进MySQL:  <code>mysql -uroot -p密码</code><br> b. 增加一个用户给予访问权限: <code>grant all privileges on *.* to &#39;root&#39;@&#39;ip地址&#39; identified by &#39;密码&#39; with grant option;</code><br> c. 刷新权限：<code>flush privileges;­</code>  </li>
+</ol>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2019/02/21/MySQL配置/">
+    <time datetime="2019-02-21T11:34:25.840Z" class="entry-date">
+        2019-02-21
+    </time>
+</a>
+    
+    
+    </footer>
+</article>
+
+
+
+
+
+
+  
     <article id="post-Linux指令" class="post-Linux指令 post type-post status-publish format-standard hentry">
     <!---->
 
@@ -77,7 +140,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/02/20/Linux指令/" data-id="cjsejktn10001c4qw2tu13m1h" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/02/20/Linux指令/" data-id="cjsek5ull0002ewqw9kgpbks0" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -231,7 +294,7 @@ xiaoming ALL=(ALL)      ALL        (自己添加的，xiaoming是用户名)
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/02/20/hello-world/" data-id="cjsejktmn0000c4qw5lrwk07b" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/02/20/hello-world/" data-id="cjsek5ule0001ewqwomndlbs8" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -288,6 +351,10 @@ xiaoming ALL=(ALL)      ALL        (自己添加的，xiaoming是用户名)
     <h3 class="widget-title">Recents</h3>
     <div class="widget-content">
       <ul>
+        
+          <li>
+            <a href="/2019/02/21/MySQL配置/">MySQL配置</a>
+          </li>
         
           <li>
             <a href="/2019/02/20/Linux指令/">Linux指令</a>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="下载MySQL源安装包: wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm  
+
+安装MySQL源: yum localinstall mysql57-community-release-el7-8.no">
+  
+
+  
+  
+  
+  
+  
+  
+  <title>MySQL配置 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="下载MySQL源安装包: wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm    安装MySQL源: yum localinstall mysql57-community-release-el7-8.noarch.rpm  安装MySQL:  mysql:yum install mysql-commu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL配置">
+<meta property="og:url" content="http://yoursite.com/2019/02/21/MySQL配置/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="下载MySQL源安装包: wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm    安装MySQL源: yum localinstall mysql57-community-release-el7-8.noarch.rpm  安装MySQL:  mysql:yum install mysql-commu">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-02-21T11:41:51.070Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MySQL配置">
+<meta name="twitter:description" content="下载MySQL源安装包: wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm    安装MySQL源: yum localinstall mysql57-community-release-el7-8.noarch.rpm  安装MySQL:  mysql:yum install mysql-commu">
+  
+  
+    <link rel="icon" href="/css/images/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src="//push.zhanzhang.baidu.com/push.js"></script>
+</head></html>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="Hexo" rel="home">Hexo</a>
+      </h1>
+      
+        <h2 class="site-description hitokoto"></h2>
+        <script type="text/javascript" src="https://v1.hitokoto.cn/?encode=js"></script>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Home</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/archives">Archives</a></li>
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-MySQL配置" class="post-MySQL配置 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title article-title">
+      MySQL配置
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2019/02/21/MySQL配置/" data-id="cjsek5ul80000ewqw9qzmas4f" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <ol>
+<li><p>下载MySQL源安装包: <code>wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm</code>  </p>
+</li>
+<li><p>安装MySQL源: <code>yum localinstall mysql57-community-release-el7-8.noarch.rpm</code></p>
+</li>
+<li><p>安装MySQL:  <code>mysql:yum install mysql-community-server</code>  </p>
+</li>
+<li><p>设置开启启动MySQL服务: <code>systemctl enable mysqld</code>  </p>
+</li>
+<li>启动/重启MySQL服务：systemctl restart mysqld  </li>
+<li>查看MySQL初始密码：grep ‘A temporary password’ /var/log/mysqld.log  </li>
+<li>更改MySQL密码：mysqladmin -u root -p’旧密码’ password ‘新密码’<br> 这里更改密码出了问题，更改失败，这是因为密码太过简单的原因。有两个接解决方法：</li>
+</ol>
+<p>　　　　方法一：把密码设置复杂点（这是最直接的方法）</p>
+<p>　　　　方法二：关闭mysql密码强度验证(validate_password)</p>
+<p>　　　　　　　　编辑配置文件：<code>vim /etc/my.cnf</code>， 增加这么一行    validate_password=off</p>
+<p>　　　　　　　　编辑后重启mysql服务：<code>systemctl restart mysqld</code>  
+　　　　　　　　  </p>
+<ol start="8">
+<li>设置mysql能够远程访问:<br> a. 登录进MySQL:  <code>mysql -uroot -p密码</code><br> b. 增加一个用户给予访问权限: <code>grant all privileges on *.* to &#39;root&#39;@&#39;ip地址&#39; identified by &#39;密码&#39; with grant option;</code><br> c. 刷新权限：<code>flush privileges;­</code>  </li>
+</ol>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/2019/02/21/MySQL配置/">
+    <time datetime="2019-02-21T11:34:25.840Z" class="entry-date">
+        2019-02-21
+    </time>
+</a>
+    
+    
+    </footer>
+</article>
+
+
+    
+<nav class="nav-single">
+    <h3 class="assistive-text">文章导航</h3>
+    
+    
+        <span class="nav-next"><a href="/2019/02/20/Linux指令/" rel="next">Linux指令 <span class="meta-nav">→</span></a></span>
+    
+</nav><!-- .nav-single -->
+
+
+
+
+
+
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside id="search" class="widget widget_search"><form role="search" method="get" accept-charset="utf-8" id="searchform" class="searchform" action="//google.com/search">
+    <div>
+        <input type="text" value name="s" id="s">
+        <input type="submit" id="searchsubmit" value="搜索">
+    </div>
+</form></aside>
+  
+    
+  
+    
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+          <li>
+            <a href="/2019/02/21/MySQL配置/">MySQL配置</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/20/Linux指令/">Linux指令</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/20/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  
+    
+  
+</div>
+      </div>
+      <footer id="colophon" role="contentinfo">
+    <p>&copy; 2019 John Doe
+    All rights reserved.</p>
+    <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+</footer>
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/js/share.js'];</script>
+
+<script src="/js/jquery-3.3.1.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+
+<div id="bg"></div>
+
+  </div>
+</body>
+</html>
