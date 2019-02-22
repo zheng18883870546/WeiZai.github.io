@@ -4,11 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="MySQL配置, Hexo">
-    <meta name="description" content="
-下载MySQL源安装包: wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm  
-
-安装MySQL源: yum localinstall mys">
+    <meta name="keywords" content="Categories, Hexo">
+    <meta name="description" content="Categories | Hexo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>MySQL配置 | Hexo</title>
+    <title>Categories | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -278,13 +275,13 @@
 
 
 
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        MySQL配置
+                        categories
                     </div>
                 </div>
             </div>
@@ -387,7 +384,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2019-02-21
+                    2019-02-22
                 </div>
 
                 
@@ -403,28 +400,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ol>
-<li><p>下载MySQL源安装包: <code>wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm</code>  </p>
-</li>
-<li><p>安装MySQL源: <code>yum localinstall mysql57-community-release-el7-8.noarch.rpm</code></p>
-</li>
-<li><p>安装MySQL:  <code>mysql:yum install mysql-community-server</code>  </p>
-</li>
-<li><p>设置开启启动MySQL服务: <code>systemctl enable mysqld</code>  </p>
-</li>
-<li>启动/重启MySQL服务：systemctl restart mysqld  </li>
-<li>查看MySQL初始密码：grep ‘A temporary password’ /var/log/mysqld.log  </li>
-<li>更改MySQL密码：mysqladmin -u root -p’旧密码’ password ‘新密码’<br> 这里更改密码出了问题，更改失败，这是因为密码太过简单的原因。有两个接解决方法：</li>
-</ol>
-<p>　　　　方法一：把密码设置复杂点（这是最直接的方法）</p>
-<p>　　　　方法二：关闭mysql密码强度验证(validate_password)</p>
-<p>　　　　　　　　编辑配置文件：<code>vim /etc/my.cnf</code>， 增加这么一行    validate_password=off</p>
-<p>　　　　　　　　编辑后重启mysql服务：<code>systemctl restart mysqld</code>  
-　　　　　　　　  </p>
-<ol start="8">
-<li>设置mysql能够远程访问:<br> a. 登录进MySQL:  <code>mysql -uroot -p密码</code><br> b. 增加一个用户给予访问权限: <code>grant all privileges on *.* to &#39;root&#39;@&#39;ip地址&#39; identified by &#39;密码&#39; with grant option;</code><br> c. 刷新权限：<code>flush privileges;­</code>  </li>
-</ol>
-
+                
             </div>
             <hr>
 
@@ -564,7 +540,7 @@
                     </span>
                     <a href="http://yoursite.com" class="b-link-green">Hexo</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2019/02/21/MySQL配置/" class="b-link-green">MySQL配置</a>
+                    <a href="/categories/index-1.html" class="b-link-green">categories</a>
                 </p>
             </div>
         </div>
@@ -590,23 +566,20 @@
                 <i class="fa fa-dot-circle-o"></i>&nbsp;Current
             </div>
             <div class="card">
-                <a href="/2019/02/21/MySQL配置/">
+                <a href="/categories/index-1.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="MySQL配置">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="categories">
                         
-                        <span class="card-title">MySQL配置</span>
+                        <span class="card-title">categories</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">
-下载MySQL源安装包: wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm  
-
-安装MySQL源: yum localinstall mys</div>
+                    <div class="summary"></div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-21
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-22
                             </span>
                         <span class="publish-author">
                             
@@ -624,26 +597,23 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fa fa-chevron-right"></i>
+                Current&nbsp;<i class="fa fa-dot-circle-o"></i>
             </div>
             <div class="card">
-                <a href="/2019/02/20/Linux指令/">
+                <a href="/categories/index-1.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Linux指令">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="categories">
                         
-                        <span class="card-title">Linux指令</span>
+                        <span class="card-title">categories</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">连接云服务器：1.连接服务器:    ssh  root@ip地址2.退出:  logout
-Linux指令系统：
-命令名称 [命名参数] [命令对象]
-一、日常操作1.cd指令       - 进入指定文件夹cd  目录     - 进入</div>
+                    <div class="summary"></div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-20
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-22
                             </span>
                         <span class="publish-author">
                             
@@ -653,6 +623,7 @@ Linux指令系统：
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>

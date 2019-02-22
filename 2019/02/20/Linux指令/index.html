@@ -31,7 +31,7 @@ Linux指令系统：
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -200,13 +200,13 @@ Linux指令系统：
     <div class="social-link">
 
 
-    <a href="mailto:xxx@xx.xx" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:458175614@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fa fa-envelope-open"></i>
     </a>
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=123123123" class="tooltipped" data-tooltip="QQ联系我: 123123123" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=458175614" class="tooltipped" data-tooltip="QQ联系我: 458175614" data-position="top" data-delay="50">
         <i class="fa fa-qq"></i>
     </a>
 
@@ -438,9 +438,9 @@ Linux指令系统：
 <p>passwd 用户名                            - 修改密码</p>
 <p>su  用户名                                - 切换用户身份</p>
 <p>sudo                                        - 以管理员执行其他程序<br>注意： a.在ubuntu需要将用户添加到sudo分组中，才能使用sudo以管理员的身份执行程序<br>          b.在centOS中需要先执行vi 指令进入sudoers文件中在指定的位置添加内容</p>
-<pre><code>## Allow root to run any commands anywhere
-root    ALL=(ALL)       ALL
-xiaoming ALL=(ALL)      ALL        (自己添加的，xiaoming是用户名)
+<pre><code>    ## Allow root to run any commands anywhere
+    root    ALL=(ALL)       ALL
+    xiaoming ALL=(ALL)      ALL        (自己添加的，xiaoming是用户名)
 </code></pre><p>2.chmod<br>chmod       权限值   文件            - 修改指定文件的权限</p>
 <p>chmod    [a,u,g,o][+,-][r,w,x]  文件            - 为指定文件，给所有用户添加相应的权限<br>                                              (a:所有，u:自己，g:同组，o:其他；<br>                                            +：添加， -: 取消；<br>                                            r:读，w:写，x:执行)<br>chown  用户名     文件            - 改变文件所有者</p>
 <p>￼</p>
@@ -471,23 +471,23 @@ xiaoming ALL=(ALL)      ALL        (自己添加的，xiaoming是用户名)
 
 
     -v   忽略字段:   grep you bb.txt -v  (在bb.txt中找不包含you的所有行)
-                    grep -E &apos;[0-9]+\.[0-9]+&apos; abb.txt -v
+                    grep -E &#39;[0-9]+\.[0-9]+&#39; abb.txt -v
 
     -rn  递归查找目录，并打印行号
     grep -r  you ./   (在当前文件夹下中所有文件中去找包行’you’的行)
 
 
-    —include=‘*.py’    仅包含 py文件: grep -r you ./ --include=&apos;*.txt&apos;
+    —include=‘*.py’    仅包含 py文件: grep -r you ./ --include=&#39;*.txt&#39;
 
-    —exclude=‘*.js’    不包含 js 文件: grep -r you ./ --exclude=&apos;*.c&apos;
+    —exclude=‘*.js’    不包含 js 文件: grep -r you ./ --exclude=&#39;*.c&#39;
 
 例如：
     grep you bb.txt  
     grep you bb.txt -i
     grep you bb.txt -i -n
-    grep -E &apos;[0-9]+&apos; bb.txt 
+    grep -E &#39;[0-9]+&#39; bb.txt 
 </code></pre><p>find       DIR    -name  ‘<em>.xxx’        找到目录下所有名字匹配的文件:  find a1 -name ‘</em>.txt’(在文件夹a1中找所有txt文件)</p>
-<pre><code>例：find ./ -size +20k -size -100k -name &apos;*.txt&apos;   (找当前目录下大于20k并且小于100k的所有txt文件)
+<pre><code>例：find ./ -size +20k -size -100k -name &#39;*.txt&#39;   (找当前目录下大于20k并且小于100k的所有txt文件)
 </code></pre><p>which  指令        - 精确查找当前可执行的指令<br>whereis  指令    - 查找所有匹配的命令</p>
 <p>四、网络管理</p>
 <p>ifconfig     查看网卡状态</p>
@@ -829,13 +829,13 @@ xiaoming ALL=(ALL)      ALL        (自己添加的，xiaoming是用户名)
         <div class="col s12 m4 l4 social-link social-statis">
 
 
-    <a href="mailto:xxx@xx.xx" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:458175614@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fa fa-envelope-open"></i>
     </a>
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=123123123" class="tooltipped" data-tooltip="QQ联系我: 123123123" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=458175614" class="tooltipped" data-tooltip="QQ联系我: 458175614" data-position="top" data-delay="50">
         <i class="fa fa-qq"></i>
     </a>
 
