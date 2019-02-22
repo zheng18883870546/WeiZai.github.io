@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-02-21T11:41:51.070Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL配置</title>
+    <link href="http://yoursite.com/2019/02/21/mysql-pei-zhi/"/>
+    <id>http://yoursite.com/2019/02/21/mysql-pei-zhi/</id>
+    <published>2019-02-21T11:34:25.840Z</published>
+    <updated>2019-02-21T11:41:51.070Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载MySQL源安装包: &lt;code&gt;wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm&lt;/code&gt;  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安装MySQL源:
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux指令</title>
+    <link href="http://yoursite.com/2019/02/20/linux-zhi-ling/"/>
+    <id>http://yoursite.com/2019/02/20/linux-zhi-ling/</id>
+    <published>2019-02-20T11:33:33.291Z</published>
+    <updated>2019-02-21T11:48:58.239Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;连接云服务器：&lt;br&gt;1.连接服务器:    ssh  root@ip地址&lt;br&gt;2.退出:  logout&lt;/p&gt;
+&lt;p&gt;Linux指令系统：&lt;/p&gt;
+&lt;p&gt;命令名称 [命名参数] [命令对象]&lt;/p&gt;
+&lt;p&gt;一、日常操作&lt;br&gt;1.cd指令       -
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/02/20/hello-world/"/>
+    <id>http://yoursite.com/2019/02/20/hello-world/</id>
+    <published>2019-02-20T10:00:30.844Z</published>
+    <updated>2019-02-20T10:00:30.844Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
