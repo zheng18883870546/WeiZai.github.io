@@ -5,9 +5,9 @@
   <subtitle>Welcome to my blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://zheng18883870546.github.io/"/>
   <updated>2019-02-21T11:41:51.070Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://zheng18883870546.github.io/</id>
   
   <author>
     <name>WeiZai</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>MySQL配置</title>
-    <link href="http://yoursite.com/2019/02/21/mysql-pei-zhi/"/>
-    <id>http://yoursite.com/2019/02/21/mysql-pei-zhi/</id>
+    <link href="http://zheng18883870546.github.io/2019/02/21/mysql-pei-zhi/"/>
+    <id>http://zheng18883870546.github.io/2019/02/21/mysql-pei-zhi/</id>
     <published>2019-02-21T11:34:25.840Z</published>
     <updated>2019-02-21T11:41:51.070Z</updated>
     
@@ -43,8 +43,8 @@
   
   <entry>
     <title>Linux指令</title>
-    <link href="http://yoursite.com/2019/02/20/linux-zhi-ling/"/>
-    <id>http://yoursite.com/2019/02/20/linux-zhi-ling/</id>
+    <link href="http://zheng18883870546.github.io/2019/02/20/linux-zhi-ling/"/>
+    <id>http://zheng18883870546.github.io/2019/02/20/linux-zhi-ling/</id>
     <published>2019-02-20T11:33:33.291Z</published>
     <updated>2019-02-21T11:48:58.239Z</updated>
     
@@ -68,8 +68,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/02/20/hello-world/"/>
-    <id>http://yoursite.com/2019/02/20/hello-world/</id>
+    <link href="http://zheng18883870546.github.io/2019/02/20/hello-world/"/>
+    <id>http://zheng18883870546.github.io/2019/02/20/hello-world/</id>
     <published>2019-02-20T10:00:30.844Z</published>
     <updated>2019-02-20T10:00:30.844Z</updated>
     
