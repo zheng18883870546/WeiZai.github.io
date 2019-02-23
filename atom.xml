@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zheng18883870546.github.io/"/>
-  <updated>2019-02-23T06:43:06.500Z</updated>
+  <updated>2019-02-23T07:11:55.470Z</updated>
   <id>http://zheng18883870546.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>vim编辑器之神</title>
     <link href="http://zheng18883870546.github.io/2019/02/23/vim-bian-ji-qi-zhi-shen/"/>
     <id>http://zheng18883870546.github.io/2019/02/23/vim-bian-ji-qi-zhi-shen/</id>
     <published>2019-02-23T06:38:43.010Z</published>
-    <updated>2019-02-23T06:43:06.500Z</updated>
+    <updated>2019-02-23T07:11:55.470Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,7 @@
       
         
         
-          &lt;hr&gt;
-&lt;h2 id=&quot;title-vim编辑器之神&quot;&gt;&lt;a href=&quot;#title-vim编辑器之神&quot; class=&quot;headerlink&quot; title=&quot;title:vim编辑器之神&quot;&gt;&lt;/a&gt;title:vim编辑器之神&lt;/h2&gt;&lt;h3
+          &lt;h3 id=&quot;配置vimrc配置&quot;&gt;&lt;a href=&quot;#配置vimrc配置&quot; class=&quot;headerlink&quot; title=&quot;配置vimrc配置&quot;&gt;&lt;/a&gt;配置vimrc配置&lt;/h3&gt;&lt;p&gt;在shell中可以通过 &lt;code&gt;vim ~/.vimrc&lt;/code&gt; 或者
         
       
     
@@ -40,11 +39,11 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>Nginx服务器</title>
     <link href="http://zheng18883870546.github.io/2019/02/23/nginx-fu-wu-qi-an-zhuang/"/>
     <id>http://zheng18883870546.github.io/2019/02/23/nginx-fu-wu-qi-an-zhuang/</id>
     <published>2019-02-23T06:38:37.486Z</published>
-    <updated>2019-02-23T06:42:36.125Z</updated>
+    <updated>2019-02-23T07:11:57.794Z</updated>
     
     <summary type="html">
     
@@ -52,8 +51,7 @@
       
         
         
-          &lt;hr&gt;
-&lt;h2 id=&quot;title-Nginx服务器&quot;&gt;&lt;a href=&quot;#title-Nginx服务器&quot; class=&quot;headerlink&quot; title=&quot;title:Nginx服务器&quot;&gt;&lt;/a&gt;title:Nginx服务器&lt;/h2&gt;&lt;h3
+          &lt;h3 id=&quot;1-阿里云添加80端口&quot;&gt;&lt;a href=&quot;#1-阿里云添加80端口&quot; class=&quot;headerlink&quot;
         
       
     

@@ -4,9 +4,10 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="My blog">
-    <meta name="description" content="
-title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc 或者 vim /etc/vimrc 打开vimrc文件对vim进行配置。在这个文件中可以进行很多和vim相关的配置，常用的如下（如果对其他配置">
+    <meta name="keywords" content="vim编辑器之神, My blog">
+    <meta name="description" content="配置vimrc配置在shell中可以通过 vim ~/.vimrc 或者 vim /etc/vimrc 打开vimrc文件对vim进行配置。在这个文件中可以进行很多和vim相关的配置，常用的如下（如果对其他配置感兴趣的可以自己百度）：
+ 
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +15,7 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>My blog</title>
+    <title>vim编辑器之神 | My blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -196,9 +197,13 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
     </ul>
 
     <div class="social-link">
+  <a href="https://zheng18883870546.github.io" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+    </a>
 
 
-    <a href="https://458175614:458175614@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+
+    <a href="mailto:458175614@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fa fa-envelope-open"></i>
     </a>
 
@@ -208,11 +213,6 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
         <i class="fa fa-qq"></i>
     </a>
 
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
-    </a>
 </div>
 </div>
 
@@ -280,13 +280,13 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
 
 
 
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        
+                        vim编辑器之神
                     </div>
                 </div>
             </div>
@@ -393,6 +393,20 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
                 </div>
 
                 
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        650
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        2 分
+                    </div>
+                    
+                
 				
 				
                     <div id="busuanzi_container_page_pv" class="info-break-policy">
@@ -405,8 +419,7 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <hr>
-<h2 id="title-vim编辑器之神"><a href="#title-vim编辑器之神" class="headerlink" title="title:vim编辑器之神"></a>title:vim编辑器之神</h2><h3 id="配置vimrc配置"><a href="#配置vimrc配置" class="headerlink" title="配置vimrc配置"></a>配置vimrc配置</h3><p>在shell中可以通过 <code>vim ~/.vimrc</code> 或者 <code>vim /etc/vimrc</code> 打开vimrc文件对vim进行配置。在这个文件中可以进行很多和vim相关的配置，常用的如下（如果对其他配置感兴趣的可以自己百度）：</p>
+                <h3 id="配置vimrc配置"><a href="#配置vimrc配置" class="headerlink" title="配置vimrc配置"></a>配置vimrc配置</h3><p>在shell中可以通过 <code>vim ~/.vimrc</code> 或者 <code>vim /etc/vimrc</code> 打开vimrc文件对vim进行配置。在这个文件中可以进行很多和vim相关的配置，常用的如下（如果对其他配置感兴趣的可以自己百度）：</p>
 <p><img src="./img/vim1.png" alt> </p>
 <h3 id="常用操作"><a href="#常用操作" class="headerlink" title="常用操作"></a>常用操作</h3><h4 id="1-模式切换"><a href="#1-模式切换" class="headerlink" title="1.模式切换"></a>1.模式切换</h4><p>我们可以将vim分为命令模式、编辑模式和末行模式三种<br><strong>命令模式：</strong>进入vim的时候vim是处于命令模式状态下的，这个时候输入内容不会出现在编辑区  (最末什么都没有)</p>
 <p><strong>末行模式：</strong>在命令模式下输入冒号，让vim进入末行模式。在末行模式的冒号后面可以输入相关的一些指令进行相关操作  (最后有一个冒号)</p>
@@ -562,7 +575,7 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
                     </span>
                     <a href="http://zheng18883870546.github.io" class="b-link-green">My blog</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2019/02/23/vim-bian-ji-qi-zhi-shen/" class="b-link-green"></a>
+                    <a href="/2019/02/23/vim-bian-ji-qi-zhi-shen/" class="b-link-green">vim编辑器之神</a>
                 </p>
             </div>
         </div>
@@ -592,14 +605,15 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt>
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="vim编辑器之神">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">vim编辑器之神</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">
-title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc 或者 vim /etc/vimrc 打开vimrc文件对vim进行配置。在这个文件中可以进行很多和vim相关的配置，常用的如下（如果对其他配置</div>
+                    <div class="summary">配置vimrc配置在shell中可以通过 vim ~/.vimrc 或者 vim /etc/vimrc 打开vimrc文件对vim进行配置。在这个文件中可以进行很多和vim相关的配置，常用的如下（如果对其他配置感兴趣的可以自己百度）：
+ 
+</div>
                     <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-23
@@ -627,17 +641,16 @@ title:vim编辑器之神配置vimrc配置在shell中可以通过 vim ~/.vimrc �
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt>
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Nginx服务器">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">Nginx服务器</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">
-title:Nginx服务器1.阿里云添加80端口阿里云上默认只有一个22端口用来做远程登录，如果希望在阿里云上安装支持http请求的nginx服务器，需要给阿里云添加80端口
+                    <div class="summary">1.阿里云添加80端口阿里云上默认只有一个22端口用来做远程登录，如果希望在阿里云上安装支持http请求的nginx服务器，需要给阿里云添加80端口
 
 2. 安装nginxa) 添加nginx存储库  
-   </div>
+    yum install ep</div>
                     <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2019-02-23
@@ -715,6 +728,9 @@ title:Nginx服务器1.阿里云添加80端口阿里云上默认只有一个22端
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
             
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">4.4k</span>
+            
 
             
 			
@@ -734,9 +750,13 @@ title:Nginx服务器1.阿里云添加80端口阿里云上默认只有一个22端
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
+  <a href="https://zheng18883870546.github.io" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+    </a>
 
 
-    <a href="https://458175614:458175614@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+
+    <a href="mailto:458175614@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fa fa-envelope-open"></i>
     </a>
 
@@ -746,11 +766,6 @@ title:Nginx服务器1.阿里云添加80端口阿里云上默认只有一个22端
         <i class="fa fa-qq"></i>
     </a>
 
-
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fa fa-rss"></i>
-    </a>
 </div>
     </div>
 </footer>
