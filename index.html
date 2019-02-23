@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="My blog">
-    <meta name="description" content="My blog">
+    <meta name="keywords" content="ShareWe blog">
+    <meta name="description" content="ShareWe blog">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>My blog</title>
+    <title>ShareWe blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -42,7 +42,7 @@
                         
                         <img src="/medias/logo.png" class="logo-img hide-on-small-only">
                         
-                        <span class="logo-span">My blog</span>
+                        <span class="logo-span">ShareWe blog</span>
                     </a>
                 </div>
                 
@@ -118,7 +118,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">My blog</div>
+        <div class="logo-name">ShareWe blog</div>
         <div class="logo-desc">
             
             This is a learning blog
@@ -362,7 +362,72 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                     
 
                     
+                        
 
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'false' === 'true',
+        autoplay: 'true' === 'true',
+        theme: '#42b983',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'false' === 'true',
+        listMaxHeight: '',
+        audio: JSON.parse('[{"name":"Faded","artist":"Alan Walker","url":"http://pndimskn7.bkt.clouddn.com/Alan%20WalkerIselin%20Solheim%20-%20Faded%20%5Bmqms2%5D.mp3","cover":"http://xxx.com/music-cover1.png"},{"name":"Take me hand","artist":"DAISHI DANCE,Cecile Corbel","url":"http://pndimskn7.bkt.clouddn.com/DAISHI%20DANCE&C%C3%A9cile%20Corbel%20-%20Take%20Me%20Hand%20%5Bmqms2%5D.mp3","cover":"/medias/music/cover2.png"},{"name":"Dream it possible","artist":"Delacey","url":"http://pndimskn7.bkt.clouddn.com/Delacey%20-%20Dream%20It%20Possible%20%5Bmqms2%5D.mp3","cover":"http://xxx .com/music-cover3.png"}]')
+    });
+});
+</script>
+                    
+
+                    
+                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
+    
+    <div class="title center-align">
+        <i class="fa fa-video-camera"></i>&nbsp;&nbsp;精彩视频
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video" style="height: 400px;"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'true' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: 'http://pndimskn7.bkt.clouddn.com/Sia%20-%20Cheap%20Thrills_w0019oqangh_1_0%20%5Bmqms%5D.mp4',
+                pic: '',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
                     
 
                     <div id="recommend-sections" class="recommend">
