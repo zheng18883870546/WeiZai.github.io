@@ -121,7 +121,7 @@
         <div class="logo-name">ShareWe blog</div>
         <div class="logo-desc">
             
-            This is a learning blog
+            这是一个编程小白的博客
             
         </div>
     </div>
@@ -281,13 +281,13 @@
                 <div class="brand">
                     <div class="title center-align">
                     
-                        欢迎来到ShareWe的博客
+                        欢迎来到我的blog
                     
                     </div>
 
                     <div class="description center-align">
                     
-                        This is a learning blog
+                        这是一个编程小白的博客
                     
                     </div>
                 </div>
@@ -314,11 +314,90 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/博客搭建/" title="博客搭建: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="博客搭建" style="background-color: #F9EBEA;">博客搭建
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/MySQL配置/" title="MySQL配置: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="MySQL配置" style="background-color: #F5EEF8;">MySQL配置
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Nginx服务器/" title="Nginx服务器: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="Nginx服务器" style="background-color: #D5F5E3;">Nginx服务器
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/git常用指令/" title="git常用指令: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="git常用指令" style="background-color: #E8F8F5;">git常用指令
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/vim编辑器/" title="vim编辑器: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="vim编辑器" style="background-color: #FEF9E7;">vim编辑器
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/hexo/" title="hexo: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="hexo" style="background-color: #F8F9F9;">hexo
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Linuxz指令/" title="Linuxz指令: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default " data-tagname="Linuxz指令" style="background-color: #82E0AA;">Linuxz指令
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
 
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"博客搭建","weight":1,"link":"https://github.com/zheng18883870546/tags/博客搭建/"},{"text":"MySQL配置","weight":1,"link":"https://github.com/zheng18883870546/tags/MySQL配置/"},{"text":"Nginx服务器","weight":1,"link":"https://github.com/zheng18883870546/tags/Nginx服务器/"},{"text":"git常用指令","weight":1,"link":"https://github.com/zheng18883870546/tags/git常用指令/"},{"text":"vim编辑器","weight":1,"link":"https://github.com/zheng18883870546/tags/vim编辑器/"},{"text":"hexo","weight":1,"link":"https://github.com/zheng18883870546/tags/hexo/"},{"text":"Linuxz指令","weight":1,"link":"https://github.com/zheng18883870546/tags/Linuxz指令/"}], {
+        autoResize: true
+    });
+</script>
     
 
 </main>

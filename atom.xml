@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ShareWe blog</title>
   
-  <subtitle>欢迎来到ShareWe的博客</subtitle>
+  <subtitle>欢迎来到我的blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://zheng18883870546.github.io/"/>
-  <updated>2019-02-23T07:11:55.470Z</updated>
-  <id>http://zheng18883870546.github.io/</id>
+  <link href="https://github.com/zheng18883870546/"/>
+  <updated>2019-02-24T12:07:21.352Z</updated>
+  <id>https://github.com/zheng18883870546/</id>
   
   <author>
     <name>WeiZai</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>vim编辑器之神</title>
-    <link href="http://zheng18883870546.github.io/2019/02/23/vim-bian-ji-qi-zhi-shen/"/>
-    <id>http://zheng18883870546.github.io/2019/02/23/vim-bian-ji-qi-zhi-shen/</id>
+    <link href="https://github.com/zheng18883870546/2019/02/23/vim-bian-ji-qi-zhi-shen/"/>
+    <id>https://github.com/zheng18883870546/2019/02/23/vim-bian-ji-qi-zhi-shen/</id>
     <published>2019-02-23T06:38:43.010Z</published>
-    <updated>2019-02-23T07:11:55.470Z</updated>
+    <updated>2019-02-24T12:07:21.352Z</updated>
     
     <summary type="html">
     
@@ -35,15 +35,19 @@
     
     </summary>
     
+      <category term="Linux" scheme="https://github.com/zheng18883870546/categories/Linux/"/>
+    
+    
+      <category term="vim编辑器" scheme="https://github.com/zheng18883870546/tags/vim%E7%BC%96%E8%BE%91%E5%99%A8/"/>
     
   </entry>
   
   <entry>
-    <title>Nginx服务器</title>
-    <link href="http://zheng18883870546.github.io/2019/02/23/nginx-fu-wu-qi-an-zhuang/"/>
-    <id>http://zheng18883870546.github.io/2019/02/23/nginx-fu-wu-qi-an-zhuang/</id>
+    <title>Nginx服务器安装</title>
+    <link href="https://github.com/zheng18883870546/2019/02/23/nginx-fu-wu-qi-an-zhuang/"/>
+    <id>https://github.com/zheng18883870546/2019/02/23/nginx-fu-wu-qi-an-zhuang/</id>
     <published>2019-02-23T06:38:37.486Z</published>
-    <updated>2019-02-23T07:11:57.794Z</updated>
+    <updated>2019-02-24T12:03:57.299Z</updated>
     
     <summary type="html">
     
@@ -57,15 +61,19 @@
     
     </summary>
     
+      <category term="Nginx" scheme="https://github.com/zheng18883870546/categories/Nginx/"/>
+    
+    
+      <category term="Nginx服务器" scheme="https://github.com/zheng18883870546/tags/Nginx%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客搭建</title>
-    <link href="http://zheng18883870546.github.io/2019/02/23/hexo-bo-ke-da-jian/"/>
-    <id>http://zheng18883870546.github.io/2019/02/23/hexo-bo-ke-da-jian/</id>
+    <link href="https://github.com/zheng18883870546/2019/02/23/hexo-bo-ke-da-jian/"/>
+    <id>https://github.com/zheng18883870546/2019/02/23/hexo-bo-ke-da-jian/</id>
     <published>2019-02-23T06:38:23.285Z</published>
-    <updated>2019-02-23T06:40:48.158Z</updated>
+    <updated>2019-02-24T12:04:56.012Z</updated>
     
     <summary type="html">
     
@@ -81,15 +89,19 @@
     
     </summary>
     
+      <category term="Linux" scheme="https://github.com/zheng18883870546/categories/Linux/"/>
+    
+    
+      <category term="博客搭建" scheme="https://github.com/zheng18883870546/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
   <entry>
     <title>git常用指令</title>
-    <link href="http://zheng18883870546.github.io/2019/02/23/git-chang-yong-zhi-ling/"/>
-    <id>http://zheng18883870546.github.io/2019/02/23/git-chang-yong-zhi-ling/</id>
+    <link href="https://github.com/zheng18883870546/2019/02/23/git-chang-yong-zhi-ling/"/>
+    <id>https://github.com/zheng18883870546/2019/02/23/git-chang-yong-zhi-ling/</id>
     <published>2019-02-23T06:38:13.600Z</published>
-    <updated>2019-02-23T06:39:49.997Z</updated>
+    <updated>2019-02-24T12:05:06.732Z</updated>
     
     <summary type="html">
     
@@ -103,15 +115,19 @@
     
     </summary>
     
+      <category term="git" scheme="https://github.com/zheng18883870546/categories/git/"/>
+    
+    
+      <category term="git常用指令" scheme="https://github.com/zheng18883870546/tags/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"/>
     
   </entry>
   
   <entry>
     <title>MySQL配置</title>
-    <link href="http://zheng18883870546.github.io/2019/02/21/mysql-pei-zhi/"/>
-    <id>http://zheng18883870546.github.io/2019/02/21/mysql-pei-zhi/</id>
+    <link href="https://github.com/zheng18883870546/2019/02/21/mysql-pei-zhi/"/>
+    <id>https://github.com/zheng18883870546/2019/02/21/mysql-pei-zhi/</id>
     <published>2019-02-21T11:34:25.840Z</published>
-    <updated>2019-02-21T11:41:51.070Z</updated>
+    <updated>2019-02-24T12:04:08.416Z</updated>
     
     <summary type="html">
     
@@ -128,15 +144,19 @@
     
     </summary>
     
+      <category term="MySQL" scheme="https://github.com/zheng18883870546/categories/MySQL/"/>
+    
+    
+      <category term="MySQL配置" scheme="https://github.com/zheng18883870546/tags/MySQL%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>Linux指令</title>
-    <link href="http://zheng18883870546.github.io/2019/02/20/linux-zhi-ling/"/>
-    <id>http://zheng18883870546.github.io/2019/02/20/linux-zhi-ling/</id>
+    <link href="https://github.com/zheng18883870546/2019/02/20/linux-zhi-ling/"/>
+    <id>https://github.com/zheng18883870546/2019/02/20/linux-zhi-ling/</id>
     <published>2019-02-20T11:33:33.291Z</published>
-    <updated>2019-02-21T11:48:58.239Z</updated>
+    <updated>2019-02-24T12:04:37.272Z</updated>
     
     <summary type="html">
     
@@ -153,15 +173,19 @@
     
     </summary>
     
+      <category term="Linux" scheme="https://github.com/zheng18883870546/categories/Linux/"/>
+    
+    
+      <category term="Linuxz指令" scheme="https://github.com/zheng18883870546/tags/Linuxz%E6%8C%87%E4%BB%A4/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://zheng18883870546.github.io/2019/02/20/hello-world/"/>
-    <id>http://zheng18883870546.github.io/2019/02/20/hello-world/</id>
+    <link href="https://github.com/zheng18883870546/2019/02/20/hello-world/"/>
+    <id>https://github.com/zheng18883870546/2019/02/20/hello-world/</id>
     <published>2019-02-20T10:00:30.844Z</published>
-    <updated>2019-02-20T10:00:30.844Z</updated>
+    <updated>2019-02-24T11:52:40.442Z</updated>
     
     <summary type="html">
     
@@ -175,6 +199,8 @@
     
     </summary>
     
+    
+      <category term="hexo" scheme="https://github.com/zheng18883870546/tags/hexo/"/>
     
   </entry>
   
