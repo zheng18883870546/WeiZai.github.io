@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ShareWe blog</title>
   
-  <subtitle>Welcome to my blog</subtitle>
+  <subtitle>欢迎来到ShareWe的博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zheng18883870546.github.io/"/>
