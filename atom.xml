@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/zheng18883870546/"/>
-  <updated>2019-02-24T12:07:21.352Z</updated>
+  <updated>2019-03-02T11:31:45.260Z</updated>
   <id>https://github.com/zheng18883870546/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SQL语句</title>
+    <link href="https://github.com/zheng18883870546/2019/02/27/sql-yu-ju/"/>
+    <id>https://github.com/zheng18883870546/2019/02/27/sql-yu-ju/</id>
+    <published>2019-02-27T09:49:16.783Z</published>
+    <updated>2019-03-02T11:31:45.260Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;数据库排名：&lt;br&gt;Oracle(关系型)&lt;br&gt;MySQL(关系型)&lt;br&gt;SQLServer(关系型)&lt;br&gt;PostgreSQL(关系型)&lt;br&gt;MongoDB(非关系数据库)&lt;br&gt;DB2(关系型)&lt;br&gt;Redis(非关系数据库)&lt;br&gt;ElasticSearch
+        
+      
+    
+    </summary>
+    
+      <category term="MySQL" scheme="https://github.com/zheng18883870546/categories/MySQL/"/>
+    
+    
+      <category term="SQL语句" scheme="https://github.com/zheng18883870546/tags/SQL%E8%AF%AD%E5%8F%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>vim编辑器之神</title>
